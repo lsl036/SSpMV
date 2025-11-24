@@ -99,3 +99,16 @@ Now the default TILEs number is 2048 * 2048, which means `RB num = 2048`, `CB nu
 3. The diagonal dominance ratio;
 4. The variability of rows (MAX $log_{10}\frac{max_j|a_{i,j}|}{min_j|a_{i,j}|}$);
 5. The variability of columns (MAX $log_{10}\frac{max_i|a_{i,j}|}{min_i|a_{i,j}|}$).
+
+## 📖 Reference
+If you find our work useful in your research, please consider citing:
+```
+@inproceedings{lin2025sspmv,
+  title={SSpMV: A Sparsity-aware SpMV Framework Empowered by Multimodal Machine Learning},
+  author={Lin, Shengle and Liu, Chubo and Ding, Yan and Zhou, Joey Tianyi and Li, Kenli and Yang, Wangdong},
+  booktitle={2025 62nd ACM/IEEE Design Automation Conference (DAC)},
+  pages={1--7},
+  year={2025},
+  organization={IEEE}
+}
+```
